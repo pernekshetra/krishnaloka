@@ -10,7 +10,7 @@ body {
 /* Styling for the header section */
 header {
     text-align: center;
-    background-color: #CC0000;
+    background-color: #4090DA;
     padding: 20px 0;
 }
 
@@ -60,7 +60,7 @@ main {
 }
 
 .overlay-option img:hover {
-    border-color: #CC0000;
+    border-color: #4090DA;
 }
 
 /* Styling for the generate button */
@@ -69,7 +69,7 @@ main {
     margin: 0 auto;
     margin-top: 30px;
     padding: 10px 20px;
-    background-color: #CC0000;
+    background-color: #4090DA;
     color: #fff;
     border: none;
     border-radius: 5px;
@@ -152,7 +152,7 @@ main {
 #resultImage {
     max-width: 300px;
     margin-bottom: 10px;
-    border: 2px solid #CC0000;
+    border: 2px solid #4090DA;
     border-radius: 5px;
 }
 
@@ -162,7 +162,7 @@ main {
     margin: 0 auto;
     margin-top: 30px;
     padding: 10px 20px;
-    background-color: #CC0000;
+    background-color: #4090DA;
     color: #fff;
     border: none;
     border-radius: 5px;

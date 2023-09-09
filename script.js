@@ -85,24 +85,8 @@ generateButton.addEventListener('click', generateProfilePic);
  * Generates a profile picture based on user inputs.
  */
 function generateProfilePic() {
-    // Get all overlay radio buttons
-    const overlayRadioButtons = document.getElementsByName('overlay');
-    let selectedOverlay;
-
-    // Find the selected overlay
-    for (const radioButton of overlayRadioButtons) {
-        if (radioButton.checked) {
-            selectedOverlay = radioButton.value;
-            break;
-        }
-    }
-
-    // If no overlay is selected, show an alert
-    if (!selectedOverlay) {
-        alert('Please select an overlay.');
-        return;
-    }
-
+ 
+ 
     // If no image is selected, show an alert
     if (!imageInput.files || imageInput.files.length === 0) {
         alert('Please select your photo before generating a profile photo.');
@@ -111,7 +95,7 @@ function generateProfilePic() {
 
     // Create an Image object for the selected overlay
     const overlayImage = new Image();
-    overlayImage.src = selectedOverlay;
+    overlayImage.src = 'overlay.png'
 
     // Create a FileReader object to read the user's image file
     const reader = new FileReader();
