@@ -25,7 +25,7 @@ generateButton.addEventListener('click', createProfileImage);
 
 
 // Variables for tracking zoom and pan
-        let zoomLevel = 1;
+        let zoomLevel = 1.05;
         let panX = 0;
         let panY = 0;
 
