@@ -18,7 +18,7 @@ const panUpButton = document.getElementById('panUpButton');
 const panDownButton = document.getElementById('panDownButton');
 
 // Add event listener to the "Generate" button
-generateButton.addEventListener('click', generateProfilePic);
+generateButton.addEventListener('click', createProfileImage);
 
   // Get the 2D context of the canvas
         const context = profileCanvas.getContext('2d');
@@ -54,6 +54,7 @@ generateButton.addEventListener('click', generateProfilePic);
     updateCanvas();
   }
 
+
   function panLeft() {
     panX -= 10; // Adjust the pan increment as needed
     updateCanvas();
@@ -71,6 +72,11 @@ generateButton.addEventListener('click', generateProfilePic);
 
   function panDown() {
     panY += 10; // Adjust the pan increment as needed
+    updateCanvas();
+  }
+
+   function createProfileImage() {
+ updateCanvas();
     updateCanvas();
   }
 
